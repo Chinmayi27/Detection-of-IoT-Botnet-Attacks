@@ -94,4 +94,3 @@ Fig 7: LIME explanation for attack detection            jupyter/anomaly.ipynb
 Fig 8: LIME explanation for botnet classification       jupyter/botnet_type.ipynb
 Fig 9: LIME explanation for Mirai attack type UDP       jupyter/mirai_attack_type.ipynb
 
-The dataset used for the purpose of this project is taken from the paper 
