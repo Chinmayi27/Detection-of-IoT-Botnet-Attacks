@@ -83,24 +83,24 @@ benign  gafgyt  mirai
  [   486  38033 695224]]
 The folder ‘Jupyter’ has all the main notebooks where we have estimated the above mentioned details of the project and the folder ‘Modals’ in ‘Jupyter’ consists of all the dataset used for the anomaly detection.
 
-## Figures                                              ## Filename
+## Figures and Filename
 
-Fig 1: Autoencoder Training Curve                       jupyter/anomaly.ipynb
+Fig 1: Autoencoder Training Curve   -                    jupyter/anomaly.ipynb
 
-Fig 2: Attack detection on test data set                jupyter/anomaly.ipynb
+Fig 2: Attack detection on test data set   -             jupyter/anomaly.ipynb
 
-Fig 3: Botnet classification learning curve             jupyter/botnet_type.ipynb
+Fig 3: Botnet classification learning curve     -        jupyter/botnet_type.ipynb
 
-Fig 4: Botnet classification confusion matrix           jupyter/botnet_type.ipynb
+Fig 4: Botnet classification confusion matrix     -      jupyter/botnet_type.ipynb
 
-Fig 5: Mirai attack classification learning curve       jupyter/mirai_attack_type.ipynb
+Fig 5: Mirai attack classification learning curve   -    jupyter/mirai_attack_type.ipynb
 
-Fig 6: Mirai attack classification confusion matrix     jupyter/mirai_attack_type.ipynb
+Fig 6: Mirai attack classification confusion matrix  -   jupyter/mirai_attack_type.ipynb
 
-Fig 7: LIME explanation for attack detection            jupyter/anomaly.ipynb
+Fig 7: LIME explanation for attack detection     -       jupyter/anomaly.ipynb
 
-Fig 8: LIME explanation for botnet classification       jupyter/botnet_type.ipynb
+Fig 8: LIME explanation for botnet classification   -    jupyter/botnet_type.ipynb
 
-Fig 9: LIME explanation for Mirai attack type UDP       jupyter/mirai_attack_type.ipynb
+Fig 9: LIME explanation for Mirai attack type UDP   -    jupyter/mirai_attack_type.ipynb
 
 The dataset used for the analysis is: https://archive.ics.uci.edu/ml/machine-learning-databases/00442/
