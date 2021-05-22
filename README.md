@@ -1,16 +1,17 @@
 # Detection-of-IoT-Botnet-Attacks
 
-Abstract
+## Abstract
 
 This project of Detection of IoT Botnet Attacks was done using just the Jupyter notebook with no other external environments required.
 It requires basic libraries like Tensorflow, SciPy (a scientific computation library) , Scikit-learn, OpenCV to read the CSV datasets, Pandas and Keras for the models, layers and callbacks. These can be imported with ease on the  Google Collab Notebook.
 
-Methodology
+## Methodology
 We extracted 115 traffic statistics and split the dataset in the ratio 80:20 (train: test)
 Next we trained an Anomaly Detector and used a threshold value to detect the anomaly of the network. 
 3 proposed neural networks Hyperbolic tangent activation function for hidden neurons, Softmax function to the last layer and Categorical cross-entropy as a loss function is used for the attack classification to classify which type of attack is occurring i.e.Botnet attack type or the Mirai attack(SCAN, ACK, SYN, UDP, UDPPlain) type classification.
 
 Python dependencies
+
 The python dependencies are listed in `requirements.txt` file and have to be installed.
 
 Download the dataset
@@ -21,24 +22,24 @@ Then extract rar files into respective `{device_name}/gafgyt_attack/` and `{devi
 
 Run the training and evaluation script.
 
-train.py
+`train.py`
 
 You can specify if you just want to use just top N features by passing an argument.
 
-train.py 5
+`train.py 5`
 
-Run just the test for the existing model
+Run just the test for the existing model.
 
 As input give it the top number of features to use and the name of the model to load
 
-test.py 5 'model_5.h5'
+`test.py 5 'model_5.h5'`
 
-Results
+## Results
 
 For all features, trained for 20 epochs for 42 mins.
 Results are:
 
-Model evaluation
+## Model evaluation
 
 Loss, accuracy
 [0.0010332345978360195, 0.9998208877454652]
@@ -82,9 +83,7 @@ benign  gafgyt  mirai
  [   486  38033 695224]]
 The folder ‘Jupyter’ has all the main notebooks where we have estimated the above mentioned details of the project and the folder ‘Modals’ in ‘Jupyter’ consists of all the dataset used for the anomaly detection.
 
-Figures
-
-Filename
+## Figures                                              ## Filename
 
 Fig 1: Autoencoder Training Curve                       jupyter/anomaly.ipynb
 
